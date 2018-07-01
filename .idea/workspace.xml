@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="88da67ef-8420-4133-a9c5-b82981388aa2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/DisignPattern/asimplefactory/README.MD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/DisignPattern/bfactorymethod/README.MD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/asimplefactory/Apple.java" afterPath="$PROJECT_DIR$/src/asimplefactory/Apple.java" />
-      <change beforePath="$PROJECT_DIR$/src/asimplefactory/Huawei.java" afterPath="$PROJECT_DIR$/src/asimplefactory/Huawei.java" />
-      <change beforePath="$PROJECT_DIR$/src/asimplefactory/IMobile.java" afterPath="$PROJECT_DIR$/src/asimplefactory/IMobile.java" />
-      <change beforePath="$PROJECT_DIR$/src/asimplefactory/MainClass.java" afterPath="$PROJECT_DIR$/src/asimplefactory/MainClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/bfactorymethod/Apple.java" afterPath="$PROJECT_DIR$/src/bfactorymethod/Apple.java" />
-      <change beforePath="$PROJECT_DIR$/src/bfactorymethod/Huawei.java" afterPath="$PROJECT_DIR$/src/bfactorymethod/Huawei.java" />
-      <change beforePath="$PROJECT_DIR$/src/bfactorymethod/IMobile.java" afterPath="$PROJECT_DIR$/src/bfactorymethod/IMobile.java" />
-      <change beforePath="$PROJECT_DIR$/src/bfactorymethod/MainClass.java" afterPath="$PROJECT_DIR$/src/bfactorymethod/MainClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/bfactorymethod/Xiaomi.java" afterPath="$PROJECT_DIR$/src/bfactorymethod/Xiaomi.java" />
+      <change beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
+      <change beforePath="$PROJECT_DIR$/out/production/DisignPattern/cabstractfactory/HuaweiFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/DisignPattern/cabstractfactory/XiaomiFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/cabstractfactory/HuaweiFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/cabstractfactory/MainClass.java" afterPath="$PROJECT_DIR$/src/cabstractfactory/MainClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/cabstractfactory/MobileFactory.java" afterPath="$PROJECT_DIR$/src/cabstractfactory/MobileFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/cabstractfactory/XiaomiFactory.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +21,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cabstractfactory/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="351">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="273">
+                <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Huawei.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Huawei.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoxconnFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cabstractfactory/FoxconnFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Xiaomi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Xiaomi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Apple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Apple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMobile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bfactorymethod/IMobile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cabstractfactory/MobileFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -75,7 +150,11 @@
         <option value="$PROJECT_DIR$/src/asimplefactory/Apple.java" />
         <option value="$PROJECT_DIR$/src/bfactorymethod/IMobile.java" />
         <option value="$PROJECT_DIR$/src/cabstractfactory/XiaomiFactory.java" />
+        <option value="$PROJECT_DIR$/src/cabstractfactory/MobileFactory.java" />
+        <option value="$PROJECT_DIR$/src/cabstractfactory/Apple.java" />
+        <option value="$PROJECT_DIR$/src/cabstractfactory/FoxconnFactory.java" />
         <option value="$PROJECT_DIR$/src/cabstractfactory/MainClass.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -148,6 +227,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cabstractfactory" />
       <recent name="bfactorymethod" />
       <recent name="asimplefactory" />
     </key>
@@ -336,12 +416,12 @@
       <workItem from="1530078402588" duration="7592000" />
       <workItem from="1530103735309" duration="2140000" />
       <workItem from="1530185892450" duration="3768000" />
-      <workItem from="1530411284499" duration="1455000" />
+      <workItem from="1530411284499" duration="5733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17185000" />
+    <option name="totallyTimeSpent" value="21463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -525,7 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Apple.java" />
     <entry file="file://$PROJECT_DIR$/src/cabstractfactory/AppleFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/cabstractfactory/README.MD" />
     <entry file="file://$PROJECT_DIR$/src/asimplefactory/MainClass.java">
@@ -592,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfactorymethod/IMobile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bfactorymethod/MobileFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -632,42 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/MobileFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/HuaweiFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Xiaomi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cabstractfactory/IMobile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Huawei.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -680,11 +719,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/HuaweiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Xiaomi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/MobileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfactorymethod/IMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Huawei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cabstractfactory/FoxconnFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cabstractfactory/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="351">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="273">
+            <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -5,13 +5,14 @@ package cabstractfactory;
  */
 public class MainClass {
     public static void main(String[] args) {
-        HuaweiFactory huaweiFactory = new HuaweiFactory();
-        IMobile huawei = huaweiFactory.getMobile();
-        huawei.produce();//生产华为手机
+        MobileFactory factory = new FoxconnFactory();
+        IMobile huawei = factory.produceHuawei();
+        huawei.produce();
 
-        XiaomiFactory xiaomiFactory = new XiaomiFactory();
-        IMobile xiaomi = xiaomiFactory.getMobile();
+        IMobile xiaomi = factory.produceXiaomi();
         xiaomi.produce();
 
+        IMobile apple = factory.produceApple();
+        apple.produce();
     }
 }
