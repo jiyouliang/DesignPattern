@@ -1,4 +1,4 @@
-package bfactorymethod;
+package cabstractfactory;
 
 /**
  *

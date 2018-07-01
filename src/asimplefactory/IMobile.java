@@ -4,5 +4,5 @@ package asimplefactory;
  *
  */
 public interface IMobile {
-    public void get();
+    public void produce();
 }

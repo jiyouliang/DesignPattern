@@ -6,7 +6,7 @@ package asimplefactory;
 public class Apple implements IMobile {
 
     @Override
-    public void get() {
+    public void produce() {
         System.out.println("生产苹果手机");
     }
 }

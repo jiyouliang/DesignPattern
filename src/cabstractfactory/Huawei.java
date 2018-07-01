@@ -1,4 +1,4 @@
-package bfactorymethod;
+package cabstractfactory;
 
 /**
  * 华为手机

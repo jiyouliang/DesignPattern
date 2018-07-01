@@ -6,12 +6,12 @@ package asimplefactory;
 public class MainClass {
     public static void main(String[] args) {
 //        Apple apple = new Apple();
-//        apple.get();//生产苹果手机
+//        apple.produce();//生产苹果手机
 //        Huawei huawei = new Huawei();
-//        huawei.get();//生产华为手机
+//        huawei.produce();//生产华为手机
         IMobile huawei = MobileFactory.getMobile("huawei");
-        huawei.get();
+        huawei.produce();
         IMobile apple = MobileFactory.getMobile("apple");
-        apple.get();
+        apple.produce();
     }
 }
